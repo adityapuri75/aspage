@@ -1,11 +1,11 @@
-import 'package:flame/game/game.dart';
 import 'package:flutter/material.dart';
 
 import 'game.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
+class Home extends StatelessWidget {
+  String id;
+  Home({this.id});
+  int coins = 0;
   @override
   Widget build(BuildContext context) {
 
